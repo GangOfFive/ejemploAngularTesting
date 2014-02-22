@@ -2,9 +2,9 @@
 
 /* Controllers */
 
-var phonecatApp = angular.module('memberApp', []);
+var memberApp = angular.module('memberApp', []);
 
-phonecatApp.controller('MembersCtrl', function($scope) {
+memberApp.controller('MembersCtrl', function($scope) {
   $scope.members = [
     {'name': 'Pablo Fallas',
      'rol': 'Soporte'},
